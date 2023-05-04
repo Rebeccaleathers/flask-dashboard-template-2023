@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <h2>Stocks Dashboard</h2>
+
+    <div>
+        <p>Selected Stock: <span id="display-symbol">{{ symbol }}</span></p>
+        <p>{{data}}</p>
+       
+    </div>
+
+    <div id="dataviz-container"></div>
+
+
+{% endblock %}
