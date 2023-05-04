@@ -92,7 +92,7 @@ def income_dashboard():
 
 
         # pass this data to the page:
-        print(data)
+        #print(data)
         return render_template("income_dashboard.html", symbol=symbol, data=data)
         
     except Exception as err:
